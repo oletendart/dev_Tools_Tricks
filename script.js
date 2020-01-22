@@ -46,3 +46,13 @@ console.clear();
 console.log(p);
 console.dir(p);
 // console.dir allows you to see all the details of the p tag
+console.clear();
+
+// Grouping together
+dogs.forEach(dog => {
+  console.group(`${dog.name}`);
+  console.log(`This is ${dog.name}`);
+  console.log(`${dog.name} is ${dog.age} years old`);
+  console.log(`${dog.name} is ${dog.age * 7} dog years old`);
+  console.groupEnd(`${dog.name}`);
+});
