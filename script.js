@@ -56,3 +56,16 @@ dogs.forEach(dog => {
   console.log(`${dog.name} is ${dog.age * 7} dog years old`);
   console.groupEnd(`${dog.name}`);
 });
+
+// counting
+console.count("Wes");
+console.count("Wes");
+console.count("Steven");
+console.count("Wes");
+console.count("Steven");
+console.count("Wes");
+console.count("Wes");
+console.count("Steven");
+console.count("Steven");
+console.count("Steven");
+console.count("Steven");
