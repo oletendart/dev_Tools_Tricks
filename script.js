@@ -35,4 +35,8 @@ console.error("shit !");
 console.info("Crocodiles eat 3-4 peoples per year");
 
 // Testing
-console.assert(1 === 2, "That is wrong !");
+const p = document.querySelector("p");
+
+console.assert(p.classList.contains("ouch"), "That is wrong !");
+
+// clearing
