@@ -24,3 +24,9 @@ console.log("Hello I am a %s string", "cool");
 //  "font-size: 50px; background:red; text-shadow: 10px 10px 0 blue"
 // );
 // by putting the %c at the beginning, it allows to insert style
+
+// warning !
+console.warn("OH NOOOO");
+
+// Eror :/
+console.error("shit !");
