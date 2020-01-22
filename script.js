@@ -78,3 +78,5 @@ fetch("https://api.github.com/users/wesbos")
     console.timeEnd("fetching data");
     console.log(data);
   });
+
+console.table(dogs);
