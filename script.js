@@ -69,3 +69,12 @@ console.count("Steven");
 console.count("Steven");
 console.count("Steven");
 console.count("Steven");
+
+// timing
+console.time("fetching data");
+fetch("https://api.github.com/users/wesbos")
+  .then(data => data.json())
+  .then(data => {
+    console.timeEnd("fetching data");
+    console.log(data);
+  });
