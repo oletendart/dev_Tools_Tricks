@@ -10,3 +10,10 @@ function makeGreen() {
   p.style.color = "#BADA55";
   p.style.fontSize = "50px";
 }
+
+// Regular
+console.log("Hello");
+
+// Interpolated
+console.log("Hello I am a %s string", "cool");
+// the % trick lets you pass the second object in the parenthesis where you put it
