@@ -30,3 +30,9 @@ console.warn("OH NOOOO");
 
 // Eror :/
 console.error("shit !");
+
+// Info
+console.info("Crocodiles eat 3-4 peoples per year");
+
+// Testing
+console.assert(1 === 2, "That is wrong !");
