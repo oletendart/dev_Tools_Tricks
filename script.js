@@ -16,4 +16,11 @@ console.log("Hello");
 
 // Interpolated
 console.log("Hello I am a %s string", "cool");
-// the % trick lets you pass the second object in the parenthesis where you put it
+// the %s trick lets you pass the second object in the parenthesis where you put it
+
+// Styled
+// console.log(
+//  "%c I am some great text",
+//  "font-size: 50px; background:red; text-shadow: 10px 10px 0 blue"
+// );
+// by putting the %c at the beginning, it allows to insert style
